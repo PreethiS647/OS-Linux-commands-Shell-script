@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/user-attachments/assets/3c842635-07c4-41b2-81bb-b3ab6759201a)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -42,23 +42,32 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot 2024-08-29 130613](https://github.com/user-attachments/assets/8a2139b5-7b26-4730-8f67-4de00a143071)
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot 2024-08-29 130627](https://github.com/user-attachments/assets/85565c47-510b-47d3-a7de-58cbc784e153)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![Screenshot 2024-08-29 130652](https://github.com/user-attachments/assets/0e3a24cd-4599-4a39-ba43-8985869695d9)
+
  
 comm file1 file2
  ## OUTPUT
+ ![Screenshot 2024-08-29 130722](https://github.com/user-attachments/assets/4859a66d-4dca-42c2-bc9f-1c5d9b9e4124)
+
 
  
 diff file1 file2
 ## OUTPUT
+![Screenshot 2024-08-29 130749](https://github.com/user-attachments/assets/fc5060ab-4e45-4bd5-8934-350a45fac5a7)
+
 
 
 #Filters
@@ -82,17 +91,22 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/99a347cc-bd2b-475b-80b0-5a604c534653)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/84ccc9ea-738d-4335-b31c-f623445b157f)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/01ed6b70-2293-4000-8632-a0a32fc3ff54)
+
 
 
 cat < newfile 
@@ -107,39 +121,49 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c03d3427-bd98-4bdb-b3b1-777ba376f712)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/4492edde-1b44-4078-aa98-de686b99c59e)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/61af03cc-1b56-479d-9e3b-f0432135f913)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1cefedfb-11b9-4435-b654-60b64af6729c)
+
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/103a7985-18ca-45b9-ba72-4316dced4430)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1bda7d43-7ba0-4f1f-a9e6-404a6742eef5)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3b46d01b-312c-4004-afd1-94c566e5748e)
 
 
 cat < newfile 
@@ -163,59 +187,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d379c628-254b-4fb4-945c-72b65d557fe0)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/af500807-6530-4481-a74f-5554314dca5f)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f63f8284-523f-4d29-b46f-52026f2a245d)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0da7e2dd-1b60-42d3-b54f-3cea35373f87)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/41c22967-09a7-4b12-84a3-a9f0f845f926)
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a2113c41-438c-48b3-a59a-4eb57fd630a9)
+
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ea8a2b78-68d2-439e-bd03-939acf970700)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/84d23897-591e-42fa-b275-e7c23c86209d)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b2f4ad84-ca1e-4a94-85bd-ec4f6155ba4b)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/db1e76f1-e6f0-4e77-9e31-5b8d5e9e0542)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c6a07cfa-c843-4c81-9590-ff1f4486e57e)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/e648a0ea-e3e5-4f5a-86cf-48ef570bf32d)
 
 
 cat > file23
