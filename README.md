@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![image](https://github.com/user-attachments/assets/bf0c7f1a-9cfd-4ab8-afbb-bde14ec241c7)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -431,7 +431,7 @@ mkdir backupdir
  
 mv backup.tar backupdir
  
-tar -tvf backup.tar
+tar -tvf backup.tarch
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/ddefa1ae-0dda-43ec-98fe-6b18bd32f929)
 
@@ -469,6 +469,9 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c74c65a5-f8bd-4142-b038-9a47a15c3ddf)
+
+
 
 
 cat < scriptest.sh 
@@ -556,6 +559,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/802d2f3d-7ca7-4755-a6cf-50d171c56aac)
 
 
 
