@@ -393,6 +393,7 @@ uniq file22
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
+
  ## OUTPUT
 ![image](https://github.com/user-attachments/assets/fefd4ed6-9dcf-4244-a453-e5f6bba421bd)
 
@@ -410,12 +411,14 @@ www. google. com
 www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
+
  ## OUTPUT
 ![image](https://github.com/user-attachments/assets/8411388c-565a-4cbc-8171-8a995e35a0bb)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
+
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/53b98695-0982-4e0b-aa62-ecef01db5722)
 
@@ -423,6 +426,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 
 #Backup commands
 tar -cvf backup.tar *
+
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/22c97505-4785-4854-a42d-0d179b3da5c0)
 
@@ -432,6 +436,7 @@ mkdir backupdir
 mv backup.tar backupdir
  
 tar -tvf backup.tarch
+
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/ddefa1ae-0dda-43ec-98fe-6b18bd32f929)
 
@@ -456,6 +461,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
 ./my-script.sh
+
 ## OUTPUT
 ![309631646-8b571dc0-2f93-4ab2-a314-0055d7559ee3](https://github.com/user-attachments/assets/bdbeaba1-6c6d-4aa4-91d8-4d52bfc2f70b)
 
@@ -518,6 +524,7 @@ chmod 777 scriptest.sh
 
  
 ls file1
+
 ## OUTPUT
 ![306542056-6d43e64c-5b38-4b4c-953d-15306e4f0962](https://github.com/user-attachments/assets/d58b77db-57bd-4004-b98c-af20e4b04624)
 
@@ -528,6 +535,7 @@ echo $?
 bash: ./one: Permission denied
  
 echo $?
+
 ## OUTPUT 
 ![306542294-e207d92e-1b49-4f24-bf5e-6b509e151ca3](https://github.com/user-attachments/assets/cb731033-7eae-45d8-b9a7-503b3f0e7d29)
 
@@ -535,6 +543,7 @@ echo $?
 abcd
  
 echo $?
+
  ## OUTPUT
 ![309631818-84516bf6-930b-4545-8031-e8922ded7758](https://github.com/user-attachments/assets/bb57ac5e-bf92-487b-bcc3-bfa86ee7cc3d)
 
@@ -577,6 +586,7 @@ fi
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
+
 ## OUTPUT
 
 ![307678773-f5691f96-7fb8-405b-aca8-99b245694866](https://github.com/user-attachments/assets/60b9e463-fe65-4822-9568-02ce7e04d989)
@@ -605,6 +615,7 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
 ./psswdperm.sh
+
 ## OUTPUT
 ![307679532-9e14508f-e06b-48bd-8335-24ab45869507](https://github.com/user-attachments/assets/e5a3c27d-93c7-4bc7-98db-c8ca4c89c70c)
 
@@ -652,6 +663,7 @@ fi
 ```
 
 ./ifnested.sh 
+
 ## OUTPUT
 
 ![307680054-a3bbfe31-a584-41fa-bb8e-34f6a8c71c2d](https://github.com/user-attachments/assets/deb67691-1767-4bc2-ab90-bc4ba4522de6)
@@ -696,7 +708,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
+
+## OUTPUT
 ![307680530-f0324dc3-e174-4c13-9e62-2b8e12f0ece8](https://github.com/user-attachments/assets/4c24e2fc-9db2-41b0-aced-8fb495b48bea)
 
 # check if a file
@@ -746,7 +759,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
+
+## OUTPUT
 ![307681129-4d51cbe0-75a7-4c8b-9897-31d80e242b23](https://github.com/user-attachments/assets/6486c565-1a45-4818-9e76-e5b92290c578)
 
 # looking for a possible value using elif
@@ -775,6 +789,7 @@ fi
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
+
 ## OUTPUT
 
 ![307682021-b23da05d-9057-4155-a3b3-e0d5e1658424](https://github.com/user-attachments/assets/b0236171-6f31-42b0-ba26-ce4f2a4a55fd)
@@ -792,6 +807,7 @@ fi
 ```
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
+
 ## OUTPUT
 ![307682427-dd2856b3-6746-4001-9bb5-64248d70cbf2](https://github.com/user-attachments/assets/3a14a83a-ad48-46b4-ba5e-2328aff60e9c)
 
@@ -813,6 +829,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
 ## Output
 ![307682893-2089b93c-f8f4-4aa2-9a14-7ad18c022649](https://github.com/user-attachments/assets/38ca3490-1f1e-460b-b777-5a414d491840)
 
@@ -832,6 +849,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
 ## Output
 ![309632182-01d121de-472d-4dbd-b7b9-3b02b5273151](https://github.com/user-attachments/assets/9996f8ed-e01a-4134-80c5-56a3bef57f1c)
 
@@ -846,6 +864,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+
  ## Output
  ![309632243-37852111-38c2-4d5b-b02e-db081bb55911](https://github.com/user-attachments/assets/2e2458d6-7e60-4a50-9e34-a89a4aa5b8fa)
 
@@ -861,6 +880,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
 ## Output
  ![308472685-5db0aa23-2b65-47be-845b-d27e71d1cf0e](https://github.com/user-attachments/assets/2818612a-431f-4e09-93e5-e2f8217aad6a)
 
@@ -889,6 +909,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
 ## Output
 ![308473693-e871a57b-eba5-4f24-beaa-b50a1cc05f9d](https://github.com/user-attachments/assets/9823553b-dd23-4e47-b515-5170200ee4b7)
 
@@ -934,6 +955,7 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
+
 ## Output
 ![309632485-a2fc3dd0-6460-481c-93c6-644032cf66bf](https://github.com/user-attachments/assets/3d82255f-17b4-4e92-a775-feeb5596d904)
 
@@ -962,6 +984,7 @@ done
 ````
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
+
 ## OUTPUT
 ![308478403-2811cf5c-8f23-497a-8175-1e53557b62ab](https://github.com/user-attachments/assets/ee24f0f1-9e97-4f1e-bcdb-1ed610308f16)
 
@@ -976,6 +999,7 @@ done
 ```
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
+
 ## OUTPUT
 ![309632774-25c8eba9-2ae6-4b0d-aee8-0f5bdc40756f](https://github.com/user-attachments/assets/1e1c02d2-8e6d-405f-8812-b72e6263d575)
 
@@ -995,6 +1019,7 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
  ## OUTPUT
 ![309632814-7ff92879-790a-4e10-b53d-b3f846385518](https://github.com/user-attachments/assets/643e362e-31fe-4f2a-8d43-f7c27a6f5392)
 
@@ -1053,6 +1078,7 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
 ## OUTPUT
 ![308486693-85d238ab-8b91-4dd4-a8a6-6b840499c3ba](https://github.com/user-attachments/assets/b6377886-a9a5-4485-9aec-7c0486a5976b)
 
@@ -1066,6 +1092,7 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 $ ./exread1.sh 
+
 ## OUTPUT
 
 ![308487155-321f81e4-81c7-499b-b9f5-1cab56f6288f](https://github.com/user-attachments/assets/9e77ecd3-14c8-4782-b001-24cb3c4578bf)
@@ -1096,6 +1123,7 @@ fi
 
  
  ./funcex.sh 1 2
+ 
 ## OUTPUT
 
 ![308487638-cdfc76b5-6701-4b9d-ac3a-d01716b50612](https://github.com/user-attachments/assets/18a70dc0-3382-4f19-b9d3-307d9867ac4b)
@@ -1112,6 +1140,7 @@ done
 $ chmod 777 argshift.sh
 
 $ ./argshift.sh 1 2 3
+
 ## OUTPUT
 
 ![309633105-d16bf8f4-1339-48cf-a69f-099205f74514](https://github.com/user-attachments/assets/094866e6-6f90-4917-a314-30bd06a53b74)
@@ -1132,6 +1161,7 @@ done
 ```
 $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
+
 ## Output
 ![309633163-71f9847b-4423-43ed-9b5a-6fe1b1902839](https://github.com/user-attachments/assets/d545c665-87c7-4d61-8d98-50adf4004a68)
 
@@ -1148,6 +1178,7 @@ done
 set +x
 ```
 ./argshift.sh 1 2 3
+
 ## OUTPUT
 
  ![309633163-71f9847b-4423-43ed-9b5a-6fe1b1902839](https://github.com/user-attachments/assets/1b2b62ae-fb3d-46be-88fd-902a52e6e2e6)
@@ -1191,6 +1222,7 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
+
 ## OUTPUT 
  ![309633292-8a81067c-381e-4a78-a1f8-a6b503c919a4](https://github.com/user-attachments/assets/624c68c7-40b7-43db-9182-20eacfd861d9)
  
