@@ -1,5 +1,10 @@
-![image](https://github.com/user-attachments/assets/bf0c7f1a-9cfd-4ab8-afbb-bde14ec241c7)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
+
+## Developed by : Preethi S
+
+## Register number: 212223230157
+
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
